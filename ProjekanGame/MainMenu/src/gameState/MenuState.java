@@ -27,7 +27,7 @@ public class MenuState extends GameState {
 			bg = new Background("/Backgrounds/city.png", 1);
 			bg.setVector(-0.1, 0);
 
-			titleColor = new Color(128, 0, 0);
+			titleColor = new Color(10, 100, 20);
 			titleFont = new Font("Arial Black", Font.PLAIN, 28);
 			font = new Font("Arial", Font.PLAIN, 12);
 		} catch (Exception e) {
@@ -47,7 +47,7 @@ public class MenuState extends GameState {
 		// draw title
 		g.setColor(titleColor);
 		g.setFont(titleFont);
-		g.drawString("Cat vs Dog", 80, 70);
+		g.drawString("Suting Suting AWW AWW", 25, 70);
 
 		// draw menu
 		g.setFont(font);
